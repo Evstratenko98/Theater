@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" type="image/x-icon" href="./src/images/favicon.ico">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+		<link rel='stylesheet' href='main.css'>
+
+		<title>Theater</title>
+	</head>
+	<body>
+		<header class="main_screen">
+			<button class="button_menu">
+				<img src="./src/images/button_menu.svg" alt="" id="button_menu"/>
+			</button>
+			<div class="mobile_blackout" id="mobile_blackout"></div>
+			<div class="mobile_menu" id="mobile_menu">
+				<p id="times">&times;</p>
+				<a href="#">Главная</a>
+				<a href="#">О театре</a>
+				<a href="#">Наши постановки</a>
+				<a href="#">Партнеры театра</a>
+				<a href="#">Контакты</a>
+				<div class="mobile_icons">
+					<a href="#"><img src="./src/images/mobile_icon_1.svg" class="" alt="" /></a>
+					<a href="#"><img src="./src/images/mobile_icon_2.svg" class="" alt="" /></a>
+					<a href="#"><img src="./src/images/mobile_icon_3.svg" class="" alt="" /></a>
+					<a href="#"><img src="./src/images/mobile_icon_4.svg" class="" alt="" /></a>
+				</div>	
+			</div>
+			<div class="contact_info">
+				<div class="contact_info_block">
+					<p class="contact_info_text">Контактная информация</p>
+					<div class="contact_info_border"></div>
+					<a href="#"><img src="./src/images/info_icon_1.svg" class="contact_info_icon" alt="" /></a>
+					<a href="#"><img src="./src/images/info_icon_2.svg" class="contact_info_icon" alt="" /></a>
+					<a href="#"><img src="./src/images/info_icon_3.svg" class="contact_info_icon" alt="" /></a>
+					<a href="#"><img src="./src/images/info_icon_4.svg" class="contact_info_icon" alt="" fill="white"/></a>
+				</div>
+			</div>
+			<nav class="navbar">
+				<div class="menu">
+					<a href="#">Главная</a>
+					<a href="#">О театре</a>
+					<a href="#">Наши постановки</a>
+					<a href="#">Партнер театра</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="phone">
+					<a href="#">+7 495 123-45-67</a>
+				</div>
+			</nav>
+			<div class="main_info">
+				<div class="title_info">
+					<h1>Большой театр</h1>
+					<p>Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с 1886 года — Петербургская консерватория. Первое постоянное в Санкт-Петербурге, крупнейшее в России и одно из крупнейших театральных зданий в Европе XVIII.</p>
+					<button class="article_button">Афиша</button>
+				</div>
+				<img src="./src/images/article.png" class="article"/>
+				<!-- <div class="article">
+
+				</div> -->
+			</div>
+		</header>
+		<main>
+			<section class="about">
+				<h2><span class="color_gold">О </span>театре</h2>	
+				<div class="about_content">
+					<div class="about_info">
+						<h3>Самый лучший театр СПБ</h3>
+						<p>Как свидетельствуют архивные документы, первое каменное здание Большого театра начали возводить в 1775 году по проекту Антонио Ринальди. В дальнейшем, после того как Ринальди упал с лесов и не мог лично наблюдать за ходом работ, Екатерина II поручила немецкому театральному декоратору и архитектору Людвигу Филиппу Тишбейну создать новый проект театра, который и был воплощён архитекторами Ф. В. фон Бауром и М. А. Деденёвым. Открытие его состоялось в 1783 году, хотя, основываясь на других свидетельствах, годом открытия можно считать 1784 год.</p>
+					</div>
+					<div class="about_number">
+						<h3>Немного о цифрах</h3>
+						<div class="mobile_flex">
+							<div>
+								<img src="./src/images/icon_0.svg" class="about_icon">
+								<h4><span class="color_gold">1600</span> посадочных мест</h4>
+							</div>
+							<div>
+								<img src="./src/images/icon_1.svg" class="about_icon">
+								<h4><span class="color_gold">350</span> лет истории</h4>
+							</div>
+						</div>
+					</div>
+					<img src="./src/images/about_picture.png" class="about_picture"/>
+				</div>
+			</section>
+
+			<section class="production">
+				<h2><span class="color_gold">Наши</span> постановки</h2>
+				<div class="prod_posts">
+					<div class="block_prod_picture">
+						<img src="./src/images/prod_picture_1.png" class="prod_picture"/>
+						<p class="text_picture">
+							Оскар 2020
+						</p>
+						<p class="text_picture_vertical">
+							Сентябрь 2020
+						</p>
+						<button class="prod_picture_button">
+							<img src="./src/images/lupa.svg" class="lupa"/>
+						</button>
+					</div>
+					<div class="block_prod_picture">
+						<img src="./src/images/prod_picture_2.png" class="prod_picture"/>
+						<p class="text_picture">
+							Лебениное озеро
+						</p>
+						<p class="text_picture_vertical">
+							Август 2020
+						</p>
+						<button class="prod_picture_button">
+							<img src="./src/images/lupa.svg" class="lupa"/>
+						</button>
+					</div>
+					<div class="block_prod_picture">
+						<img src="./src/images/prod_picture_3.png" class="prod_picture"/>
+						<p class="text_picture">
+							Золотой грамофон
+						</p>
+						<p class="text_picture_vertical">
+							Июль 2020
+						</p>
+						<button class="prod_picture_button">
+							<img src="./src/images/lupa.svg" class="lupa"/>
+						</button>
+					</div>
+					<div class="block_prod_picture">
+						<img src="./src/images/prod_picture_4.png" class="prod_picture"/>
+						<p class="text_picture">
+							Щелкунчик
+						</p>
+						<p class="text_picture_vertical">
+							Май 2020
+						</p>
+						<button class="prod_picture_button">
+							<img src="./src/images/lupa.svg" class="lupa"/>
+						</button>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="nominations">
+					<img src="./src/images/not_picture.png" alt="" class="nom_picture"/>
+					<div class="nom_block">
+						<div class="nom_years">
+							<p class="nom_years_text">2018</p>
+							<p class="nom_years_text">2019</p>
+							<p class="nom_years_text">2020</p>
+						</div>
+						<div class="nom_info">
+							<div class="stars">
+								<img src="./src/images/Vector.svg" alt="" class="nom_star"/>
+								<img src="./src/images/Vector.svg" alt="" class="nom_star"/>	
+								<img src="./src/images/Vector.svg" alt="" class="nom_star"/>
+								<img src="./src/images/Vector.svg" alt="" class="nom_star"/>
+								<img src="./src/images/Vector.svg" alt="" class="nom_star"/>
+							</div>
+							<div class="nom_block_2">
+								<p class="nom_text">Лучший театр <br/> по мнению театральных критиков Парижа</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="partners">
+					<h2>
+						<span class="color_gold">Партнеры</span>
+						театра
+					</h2>
+					<div class="partners_block">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+						<img src="./src/images/gaz.svg" alt=""
+						class="partners_logo">
+					</div>
+			</section>
+
+			<section class="maecenas">
+					<h2>
+						<span class="color_gold">Стать</span>
+						меценатом
+					</h2>
+					<div class="maecenas_block">
+						<div class="maecenas_info">
+							<h4>+7 (812) 123-45-55</h4>
+							<h4>+7 (812) 123-45-66</h4>
+							<h4>info@theater.ru</h4>
+							<h4>г. санкт-петербург, невский 140</h4>
+						</div>
+						<form class="maecenas_form">
+							<div class="form_block">
+								<div class="form_input_block">
+									<input type="text" name="name" placeholder="Имя" class="form_input"
+									required />
+									<input type="text" name="name" placeholder="Компания" class="form_input"
+									required />
+									<input type="text" name="name" placeholder="Телефон" class="form_input"/>
+									<input type="text" name="name" placeholder="E-mail" class="form_input"
+									required />
+								</div>
+								<textarea placeholder="Сообщение" class="form_message"
+								required /></textarea>
+							</div>
+							<div class="form_block_2">
+								<p class="form_text">* Ваши данные не будут переданы третьим лицам, 100% вероятность. Конфиденциальность мы гарантируем, и защищаем персональные данные согласно законку ФЗ-52.</p>
+								<button type="submit" class="form_button">Отправить</button>
+							</div>
+						</form>
+					</div>
+			</section>
+
+			<section class="footer_contact_info">
+				<div class="footer_contact_info_block">
+					<div>
+						<h4>+7 (812) 123-45-55</h4>
+						<h4>+7 (812) 123-45-66</h4>
+					</div>
+					<div class="text_right">
+						<h4>info@theater.ru</h4>
+						<h4>г. санкт-петербург, невский 140</h4>
+					</div>
+				</div>
+			</section>
+
+			<footer class="footer">
+				<div class="footer_block">
+					<p>(с) Все права защищены. Большой театр. 2020</p>
+					<p>
+						Разработано d-e-n.ru <br/>
+						Изучено Evstratenko S.V.
+					</p>
+				</div>
+			</footer>
+		</main>
+		<script type="text/javascript" src="main.js"></script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
