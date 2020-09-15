@@ -39,4 +39,10 @@ times.addEventListener('click', () => {
 	}, 300)
 })
 
-
+mobile_blackout.addEventListener('click', () => {
+   mobile_menu.style.transform = "translateX(-100%)"
+  setTimeout(() => {
+    mobile_blackout.style.display = "none"
+    mobile_menu.style.display = "none"
+  }, 300)
+})
